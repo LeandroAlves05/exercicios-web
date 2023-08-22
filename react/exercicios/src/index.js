@@ -1,6 +1,12 @@
 import React from "react"
 import ReactDOM from "react-dom"
 
-const param = <h1>React Poggers</h1>
+import Multi, { GoodEvening } from "./componentes/Multiples"
 
-ReactDOM.render(param, document.getElementById('root'))
+
+ReactDOM.render(
+    <div>
+        <Multi.GoodAfternoon nome="Leo" />
+        <GoodEvening nome="Leo" />
+    </div>
+, document.getElementById('root'))

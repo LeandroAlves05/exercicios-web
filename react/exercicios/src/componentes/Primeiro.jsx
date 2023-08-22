@@ -1,3 +1,4 @@
-export default function() {
-    return
-}
+import React from "react"
+
+export default () => 
+    <h1>Primeiro</h1>
